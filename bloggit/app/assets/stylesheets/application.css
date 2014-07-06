@@ -4,3 +4,13 @@
  *= require_tree .
  *= require_self
  */
+body {
+    background-color:#ddd;
+    font-family:helvetica, arial, sans-serif;
+}
+.container-main {
+    border:1px solid #999;
+    margin:20px auto;
+    width:750px;
+    background-color:#eee;
+}
