@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="Bloggit">
 <head>
   <title>Bloggit</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -8,8 +8,9 @@
 </head>
 <body>
 <div class="container-main">
-  <% if errors.any? %>
-    <p class="notice"><%= notice %></p>                                                                                                                                   
+    <% if notice %>
+    <p class="notice"><%= notice %></p>  
+    <% elsif alert %>
     <p class="alert"><%= alert %></p>
   <% end %>
   <%= yield %>
