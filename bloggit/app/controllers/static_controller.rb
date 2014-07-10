@@ -1,5 +1,6 @@
 class StaticController < ApplicationController
   def home
+      @latest_articles = Article.recent
   end
 
   def about
