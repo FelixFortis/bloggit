@@ -6,6 +6,6 @@
     <div class="article">
         <div class="title"><%= article.title %></div>
         <div class="body"><%= truncate(article.body, length: 150) %></div>
-        <div class="full">Read the full article</div>
+        <div class="full"><%=link_to('Read the full article', "articles/#{article.id}") %></div>
     </div>
 <% end %>
