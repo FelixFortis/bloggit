@@ -3,9 +3,9 @@
 <h3>Check out some of our latest articles</h3>
     
 <% @latest_articles.each do |article| %>
-  <div>
-    <div><%= article.name %></div>
-    <div><%= article.body %></div>
-    <div>Read the full article</div>
-  </div>
+    <div class="article">
+        <div class="title"><%= article.title %></div>
+        <div class="body"><%= truncate(article.body, length: 150) %></div>
+        <div class="full">Read the full article</div>
+    </div>
 <% end %>
