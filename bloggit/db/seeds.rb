@@ -4,7 +4,7 @@ Article.delete_all
 Article.create(slug: 'criminal-prosecuted-to-fullest-extent-of-budget',
     title: 'Criminal Prosecuted To Fullest Extent Of Budget',
     body: 
-    %{<p>
+    %{
         STOCKTON, CA—Concluding proceedings of a case that will now be sent 
 		to a jury it lacked the means to properly vet, San Joaquin District 
 		Attorney James Willett told reporters Monday that he believes his 
@@ -21,11 +21,11 @@ Article.create(slug: 'criminal-prosecuted-to-fullest-extent-of-budget',
 		funding.” Willett confirmed that he is confident the jury will put the 
 		suspect behind bars until whenever prison overcrowding forces the state 
 		to grant an early release.
-	</p>})
+	})
 Article.create(slug: 'friend-takes-liberty-of-ordering-40-worth-of',
     title: 'Friend Takes Liberty Of Ordering $40 Worth Of Appetizers For Entire Table',
     body: 
-    %{<p>
+    %{
         ATLANTA—Speaking up on behalf of his six-person group at Morrie’s Tavern 
 		& Grill Tuesday evening, software engineer Bradley McCray reportedly took 
 		it upon himself to order a wide selection of appetizers totaling 
@@ -37,79 +37,29 @@ Article.create(slug: 'friend-takes-liberty-of-ordering-40-worth-of',
 		you just bring us one of each? And we’re also gonna start off with a pitcher 
 		of strawberry margaritas to share.” At press time, the rest of the table was 
 		watching helplessly as McCray asked to see the dessert menu.
-    </p>})
+    })
 Article.create(slug: 'few-more-items-knocked-off-list-of-desirable-trait',
-    title: 'Few More Items Knocked Off List Of Desirable Traits In Partner As Woman Turns Year Older',
+    title: 'Obama Always Freaked Out By People Standing Above Him Smiling Whenever He Signs Bill',
     body: 
-    %{<p>
-        SANTA CLARITA, CA—After turning 29 last week, local single woman Denise Palermo 
-		reportedly took the opportunity Tuesday to reflect on her current lack of long-term 
-		relationship prospects and slash several more items from the continually shrinking 
-		list of qualities she desires in a romantic partner.
-	</p>
-	<p>
-		“Well, it’s time to lower the bar again,” said Palermo, referring to the minimum 
-		personal, professional, and financial characteristics she looks for in the men 
-		she dates. “Full head of hair—that’s got to go. Being well-read has been on the 
-		chopping block for years, so it’s probably time to get rid of that one. Ditto on 
-		him being a great conversationalist, being taller than me, liking the Decemberists, 
-		and not taking himself too seriously.”
-	</p>
-	<p>
-		“Come to think of it, my upper age limit has been 40 for a while,” Palermo added. 
-		“Maybe now’s a good time to go ahead and bump that up to 45.”
-	</p>
-	<p>
-		According to sources, Palermo’s checklist, which as recently as 2007 included more 
-		than 38 specifically ranked physical, emotional, and intellectual attributes, has 
-		been cut down by more than two-thirds since her teenage years, when her image of 
-		the ideal boyfriend was at its zenith.
-	</p>
-	<p>
-		Priorities that once occupied top slots, such as having good teeth, a love of 
-		international travel, and individually defined abdominal muscles, were long ago 
-		demoted in importance, and are now said to be considered perks, though they are 
-		by no means requirements for Palermo to date someone.
-	</p>
-	<p>
-		“I used to say I’d only ever consider getting involved with a professional, ideally 
-		a doctor, but then as I got a little older it was anyone with a bachelor’s degree, 
-		and now, honestly, any guy who holds down a steady job can make the cut,” said 
-		Palermo, noting that lack of full-time employment as a deal-breaker is scheduled 
-		for removal by 2019. “He doesn’t even need to own his own place or like the outdoors, 
-		criteria that were removed from the list in 2011 and 2012, respectively.”
-	</p>
-	<p>
-		“I will say, though, that a love of dogs is still very important to me,” Palermo 
-		continued. “That one’s got at least another two years left in it.”
-	</p>
-	<p>
-		This latest trimming of Palermo’s list comes after similar purges on birthdays in 2002, 
-		2003, 2006, 2010, 2011, 2012, and last year, when she reluctantly struck off her 
-		long-held prohibition against dating smokers.
-	</p>
-	<p>
-		Though she acknowledged the nonnegotiable traits she absolutely insists upon are 
-		few—namely wanting to have kids someday, not being overtly religious, and maintaining 
-		a basic, minimal level of physical fitness—Palermo said she often wonders whether 
-		there might still be a lot of compatible partners out there she isn’t giving a chance to.
-	</p>
-	<p>
-		“Sometimes I think maybe it’s unreasonable for me to have these expectations,” said 
-		Palermo, admitting that lately she has come to terms with dating men who “don’t have 
-		much in the way of a sense of humor.” “Maybe there are a lot of good guys out there 
-		who don’t listen to music or read more than a book a year. I guess I could figure 
-		out how to be okay with that.”
-	</p>
-	<p>
-		“Because really, when you get down to it, there are only two things that are important: 
-		that a guy is attracted to me and that he isn’t currently dating someone else,” 
-		Palermo continued. “I haven’t had to cross those off. Yet.”
-    </p>})
+    %{
+        WASHINGTON—Explaining that the practice is “just flat-out bizarre if you think 
+		about it,” President Obama admitted to reporters Wednesday that he gets 
+		incredibly freaked out when people stand over him and smile every time he signs 
+		a bill into law. “They form this peculiar little semicircle around me, flash 
+		these big, forced grins, and watch over my shoulder as I write my signature—the 
+		whole thing really just weirds me out,” said Obama, adding that he would much 
+		prefer signing new legislation alone in the Oval Office “without anyone 
+		breathing down my neck.” “It’s always some members of Congress or my cabinet, 
+		and there are usually some small business owners or veterans or whatever, but 
+		the absolute worst is when a group of little children literally surround my desk 
+		and hover over me as I sign a bill. It’s so creepy.” Obama, however, expressed 
+		some measure of relief, anticipating that he will only have to endure the 
+		uncomfortable situation on one or two more occasions before leaving office.
+    })
 Article.create(slug: 'man-confused-by-compliment-from-person-whose',
     title: 'Man Confused By Compliment From Person Whose Career He Can’t Help',
     body: 
-    %{<p>
+    %{
         QUINCY, MA—Local man Alex Heard told reporters Thursday that he was thoroughly confused 
 		after receiving a compliment from an acquaintance despite the fact that he could in no 
 		way advance this individual’s career or assist him professionally whatsoever. “I think 
@@ -120,4 +70,4 @@ Article.create(slug: 'man-confused-by-compliment-from-person-whose',
 		work before, so it just doesn’t make any sense that he’d say something like that. I mean, 
 		who knows? Maybe he meant it.” At press time, Heard had returned home to find a LinkedIn 
 		invitation from Dawes waiting in his inbox.
-    </p>})
+    })

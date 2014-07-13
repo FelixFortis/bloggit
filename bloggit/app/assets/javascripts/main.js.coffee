@@ -1,0 +1,1 @@
+bloggitApp = angular.module('bloggitApp', [])
