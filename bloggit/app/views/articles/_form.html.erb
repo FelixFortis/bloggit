@@ -5,7 +5,11 @@
       <%= f.input :title, input_html: { "ng-model" => 'newArticle.title' } %>
       <%= f.input :body, input_html: { "ng-model" => 'newArticle.body' } %>
   </div>
-  <markdown>{{newArticle.body}}</markdown>
+  <markdown>
+# Hello World!
+- Zeppelin
+- That guy
+</markdown>
 
   <div class="form-actions">
     <%= f.button :submit %>
