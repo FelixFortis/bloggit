@@ -2,18 +2,43 @@
 <html ng-app="bloggitApp">
 <head>
   <title>Bloggit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body ng-cloak>
-<div class="container-main">
-    <% if notice %>
-    <p class="notice"><%= notice %></p>  
-    <% elsif alert %>
-    <p class="alert"><%= alert %></p>
-  <% end %>
-  <%= yield %>
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="../" class="navbar-brand">Bloggit</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="../articles">Articles</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../contact" target="_blank">Contact</a></li>
+                <li><a href="../about" target="_blank">About</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="clearfix top-pad">
+    <div class="row">
+        <div class="col-lg-12">
+            <% if notice %>
+                <p class="notice"><%= notice %></p>  
+            <% elsif alert %>
+                <p class="alert"><%= alert %></p>
+            <% end %>
+            <%= yield %>
+        </div>
+    </div>
+</div>
 </div>
 </body>
 </html>
