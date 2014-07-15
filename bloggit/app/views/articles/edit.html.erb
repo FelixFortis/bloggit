@@ -1,6 +1,13 @@
-<h1>Edit article</h1>
-
-    <%= render 'form' %>
-<div class="col-lg-8">
-    <%= link_to 'Cancel', @article %> | <%= link_to 'Articles', articles_path %>
+<div class="page-header">
+    <h1 id="type">Edit article</h1>
+</div>
+<div class="row">
+    <div class="col-lg-12 section">
+        <div class="bs-component">
+            <%= render 'form' %>
+            <div class="col-lg-8">
+                <%= link_to 'Cancel', @article %> | <%= link_to 'Articles', articles_path %>
+            </div>
+        </div>
+    </div>
 </div>

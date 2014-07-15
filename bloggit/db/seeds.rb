@@ -25,7 +25,7 @@ feeling-lucky), a [wiki: test] link to a Wikipedia page, and a link to
 Now some inline markup like _italics_,  **bold**, and `code()`. Note that underscores in 
 words are ignored in Markdown Extra.
 
-![picture alt](/images/photo.jpeg "Title is optional")     
+![picture alt](http://m.c.lnkd.licdn.com/mpr/mpr/p/4/005/05b/0ad/17ef3d8.jpg "Image goes here")     
 
 > Blockquotes are like quoted text in email replies
 >> And, they can be nested
@@ -42,16 +42,6 @@ And now some code:
 
     // Code is just text indented a bit
     which(is_easy) to_remember();
-
-~~~
-
-// Markdown extra adds un-indented code blocks too
-
-if (this_is_more_code == true && !indented) 
-    // tild wrapped code blocks, also not indented
-
-
-~~~
 
 Text with  
 two trailing spaces  

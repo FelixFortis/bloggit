@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html ng-app="bloggitApp">
-<head>
+<head ng-cloak>
   <title>Bloggit</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body ng-cloak>
+<body>
 <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
