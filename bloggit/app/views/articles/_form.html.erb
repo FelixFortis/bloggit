@@ -1,18 +1,15 @@
-<%= simple_form_for(@article) do |f| %>
-  <%= f.error_notification %>
+<div class="col-lg-8">
+    <%= simple_form_for @article, input_html: { class: "form-horizontal" } do |f| %>
+        <%= f.error_notification %>
 
-  <div class="form-inputs">
-      <%= f.input :title, input_html: { "ng-model" => 'newArticle.title' } %>
-      <%= f.input :body, input_html: { "ng-model" => 'newArticle.body' } %>
-  </div>
-  <markdown>
-# Hello World!
-- Zeppelin
-- That guy
-</markdown>
+        <div class="form-group">
+            <%= f.input :title, input_html: { "ng-model" => 'newArticle.title' } %>
+            <br />
+            <%= f.input :body, input_html: { "ng-model" => 'newArticle.body', rows: "6", class: "input-textarea" } %>
+        </div>
 
-  <div class="form-actions">
-    <%= f.button :submit %>
-  </div>
-<% end %>
-
+        <div class="form-group">
+            <%= f.button :submit, { class: "btn-primary" } %>
+        </div>
+    <% end %>
+</div>

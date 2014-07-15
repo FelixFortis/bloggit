@@ -25,7 +25,6 @@ group :development do
   gem 'binding_of_caller', '~> 0.7.2'
   gem 'pry', '~> 0.10.0'
   gem 'pry-doc', '~> 0.6.0'
-  gem 'brakeman', '~> 2.6.1', :require => false
   gem 'meta_request', '~> 0.3.0'
   gem 'spring'
 end
