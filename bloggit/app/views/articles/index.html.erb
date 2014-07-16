@@ -8,7 +8,8 @@
             <div class="bs-component">
                 <h2 class="col-lg-9 nopad"><%= article.title %></h2>
                 <div class="clearfix"></div>
-                <markdown><%= article.body %></markdown><br />
+                    <%= markdown(article.body).html_safe %>
+                <br />
                 <%= link_to 'Show', article %>&nbsp;&nbsp;|&nbsp;&nbsp;<td><%= link_to 'Edit', edit_article_path(article) %>&nbsp;&nbsp;|&nbsp;&nbsp;<%= link_to 'Delete', article, method: :delete, data: { confirm: "Are you sure you want to delete \"#{article.title}?\"" } %>
             </div>
         </div>

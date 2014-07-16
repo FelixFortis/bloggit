@@ -7,7 +7,7 @@
             <div class="bs-component">
                 <h2 class="col-lg-9 nopad"><%= article.title %></h2>
                 <div class="clearfix"></div>
-                <markdown><%= truncate(article.body, length: 300) %></markdown>
+                    <%= markdown(truncate(article.body, length: 300)).html_safe %><br />
                 <%=link_to('Read the full article', "articles/#{article.id}") %>
             </div>
         </div>

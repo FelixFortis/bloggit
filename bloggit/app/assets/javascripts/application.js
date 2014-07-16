@@ -1,4 +1,3 @@
-//= require showdown
 //= require angular
 //= require angular-resource
 //= require jquery
