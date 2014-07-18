@@ -1,7 +1,6 @@
 <div class="page-header">
     <h1 id="type">Listing articles</h1>
 </div>
-
 <div class="row">
     <% @articles.each do |article| %>
         <div class="col-lg-12 section">
@@ -15,7 +14,8 @@
         </div>
     <% end %><br />
 
-<%= link_to 'New Article', new_article_path %>
+<%= button_to 'New Article', new_article_path, class: 'btn btn-primary', method: :get %>
+<center><%= will_paginate @articles %></center>
 </div>
 
 
