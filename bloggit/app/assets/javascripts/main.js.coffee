@@ -8,7 +8,7 @@ bloggitApp.directive "markdown", ->
   compile: (tElement, tAttrs, transclude) ->
     markdown = tElement.text()
     tElement.html editTemplate
-    previewElememt = angular.element(previewTemplate)
+    previewElement = angular.element(previewTemplate)
     tElement.append previewElement
     (scope, element, attrs) ->
       scope.isEditMode = true

@@ -27,6 +27,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
+    acts-as-taggable-on (3.3.0)
+      activerecord (>= 3, < 5)
     addressable (2.3.6)
     angularjs-rails (1.2.19)
     annotate (2.6.5)
@@ -229,6 +231,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  acts-as-taggable-on
   angularjs-rails (~> 1.2.19)
   annotate (~> 2.6.5)
   bcrypt-ruby (~> 3.1.5)

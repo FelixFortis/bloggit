@@ -15,4 +15,7 @@ class Article < ActiveRecord::Base
     
     validates :title, presence: true
     validates :body, presence: true
+    
+    attr_accessible :tag_list
+    acts_as_taggable
 end
