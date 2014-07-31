@@ -14,7 +14,7 @@
 
 FactoryGirl.define do
   factory :article do
-    name "MyString"
+    title "MyString"
     body "MyString"
   end
 end
