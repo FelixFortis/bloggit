@@ -12,14 +12,14 @@ describe "static pages" do
   end
 
   describe "about page" do
-    before { visit about_path }
+    before { visit static_about_path }
 
     it { should have_title('Bloggit | About') }
     it { should have_selector('h1', text: 'About Bloggit') }
   end
 
   describe "contact page" do
-    before { visit contact_path }
+    before { visit static_contact_path }
 
     it { should have_title('Bloggit | Contact') }
     it { should have_selector('h1', text: 'Contact Bloggit') }
