@@ -1,12 +1,13 @@
 require 'rails_helper'
 
 describe Article do
-  subject { page }
+    subject { page }
 
-  describe 'index page' do
-      before { visit articles_path }
+    describe 'index page' do
+        before { visit articles_path }
 
-      it { should have_title('Bloggit | Articles') }
-    it { should have_selector('h1', text: 'Articles') }
-  end
+            it { should have_title('Bloggit | Articles') }
+            it { should have_selector('h1', text: 'Articles') }
+    end
+    
 end
