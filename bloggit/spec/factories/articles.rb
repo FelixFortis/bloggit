@@ -14,7 +14,8 @@
 
 FactoryGirl.define do
   factory :article do
-    title "MyString"
+    title "Testio Atriculus"
     body "MyString"
+    slug "testio-articulus"
   end
 end
